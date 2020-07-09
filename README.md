@@ -1,29 +1,16 @@
-# New Project
+# snowpack: import not found
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+```
+npm i https://github.com/weijarz/ts-module-demo
+```
 
-## Available Scripts
+FILE: src/index.tsx
+```
+import defaultFn, { namedFn } from 'ts-module-demo'
 
-### npm start
+defaultFn()
+namedFn()
+```
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+Will throw error 'Uncaught SyntaxError: import not found: namedFn' in browser console.
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-### npm test
-
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
-
-### npm run build
-
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like "@snowpack/plugin-webpack" or "@snowpack/plugin-parcel" to your `snowpack.config.json` config file.
-
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
