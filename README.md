@@ -1,7 +1,7 @@
 # snowpack: import not found
 
 ```
-npm i https://github.com/weijarz/ts-module-demo
+npm i https://github.com/weijarz/ts-module-demo.git
 ```
 
 FILE: src/index.tsx
