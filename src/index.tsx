@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 
+import defaultFn, { namedFn } from 'ts-module-demo'
+
+defaultFn()
+namedFn()
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

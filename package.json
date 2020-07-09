@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "ts-module-demo": "git+https://github.com/weijarz/ts-module-demo.git"
   },
   "devDependencies": {
     "@snowpack/app-scripts-react": "^1.4.0",
